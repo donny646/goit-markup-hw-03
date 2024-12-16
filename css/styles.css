@@ -215,6 +215,7 @@ img {
 
 .our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .team-title {
   font-weight: 700;
@@ -224,6 +225,7 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .team-name {
   font-weight: 500;
@@ -244,6 +246,13 @@ img {
 
 .team-profile {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-profile-list {
+  display: flex;
+  gap: 24px;
 }
 
 /* #endregion our team */
